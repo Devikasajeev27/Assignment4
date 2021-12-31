@@ -1,0 +1,90 @@
+/*Author:Devika S Kumar
+Date:16-12-21*/
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image: url("../img/back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Navigation Start*/
+
+.menu{
+	background-color: black;
+	padding:20px;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-flex;
+	padding: 15px;
+	position: relative;
+}
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	font-size:24px; 
+}
+.menu ul li:hover{
+	background-color: red;
+	border-radius: 4px;
+}
+.menu ul li:hover .submenu{
+	display: block;
+	position: absolute;
+	left: 0;
+	top:50px;
+}
+.submenu{
+	display: none;
+}
+.submenu ul{
+	background-color: black;
+	padding: 15px;
+}
+/*Navigation End*/
+
+/*Container Section Start*/
+
+.row{
+	display: flex;
+}
+.col{
+	background-color:rgba(0,0,0,0.4);
+	width:30%;
+	margin: 15px;
+	padding: 20px;
+	color: white;
+}
+.col h2{
+	text-align: center;
+	margin-bottom: 15px;
+	text-decoration: underline;
+}
+.col p{
+	font-size: 20px;
+	text-align: justify;
+}
+
+/*Container Section End*/
+
+/*Footer Section Start*/
+
+footer{
+	background-color: black;
+	padding: 25px;
+	text-align: center;
+}
+footer p{
+	margin:15px;
+}
+footer span{
+	color:#fff;
+}
+/*Footer Section End*/
